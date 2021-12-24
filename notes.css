@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainContent {
+  margin: 0% auto;
+  width: fit-content;
+  padding: 20px;
+  margin-top: 10px;
+  border: 0.5px solid rgb(75, 74, 74);
+  border-radius: 5px;
+}
+nav {
+  color: black;
+  padding: 10px;
+}
+
+#btnADD {
+  padding: 8px 18px 8px 18px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#addnote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+#your-notesDiv {
+  height: fit-content;
+  padding: 20px;
+  width: fit-content;
+}
+
+#show-notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.note-para {
+  width: 200px;
+  height: fit-content;
+  font-size: 10px;
+
+  word-wrap: break-word;
+}
+.divNote {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: 3px;
+}
+.dltclass {
+  padding: 5px 15px 5px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  #mainContent h1,
+  #mainContent h2 {
+    font-size: 20px;
+  }
+}
